@@ -1,0 +1,5 @@
+.dialog { border: 0; border-radius: var(--radius); padding: 28px; width: min(480px, 92vw); background: var(--sand); color: var(--ink); }
+.dialog::backdrop { background: rgba(31, 51, 40, .55); }
+.head { display: flex; justify-content: space-between; align-items: start; gap: 12px; }
+.head h2 { font-size: 1.5rem; }
+.close { font-size: 1.8rem; line-height: 1; background: none; border: 0; cursor: pointer; color: var(--forest); }

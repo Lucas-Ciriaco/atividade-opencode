@@ -1,0 +1,5 @@
+.form { display: grid; gap: 16px; margin-top: 12px; }
+.form label { display: grid; gap: 6px; font-weight: 800; }
+.form input[type="email"], .form input:not([type]) { font: inherit; padding: 12px 14px; border-radius: 12px; border: 2px solid var(--sage); background: var(--white); }
+.error { color: #9B2C1A; font-weight: 600; font-size: .9rem; }
+.note { font-size: .9rem; opacity: .8; }

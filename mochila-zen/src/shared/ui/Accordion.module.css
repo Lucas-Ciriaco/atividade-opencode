@@ -1,0 +1,5 @@
+.list { display: grid; gap: 12px; }
+.item { background: var(--white); border-radius: 18px; }
+.item h3 { margin: 0; }
+.trigger { width: 100%; display: flex; justify-content: space-between; gap: 12px; font: inherit; font-weight: 800; font-size: 1.05rem; text-align: left; background: none; border: 0; padding: 18px 22px; cursor: pointer; color: var(--forest); }
+.panel { padding: 0 22px 18px; }

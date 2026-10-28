@@ -1,0 +1,11 @@
+.header { position: sticky; top: 0; z-index: 10; background: var(--sand); display: flex; justify-content: space-between; align-items: center; padding: 14px 20px; flex-wrap: wrap; }
+.logo { font-weight: 800; font-size: 1.3rem; color: var(--forest); text-decoration: none; }
+.nav { display: flex; gap: 22px; }
+.nav a { color: var(--forest); font-weight: 600; text-decoration: none; }
+.nav a:hover { text-decoration: underline; }
+.toggle { display: none; font: inherit; font-weight: 800; background: none; border: 2px solid var(--forest); color: var(--forest); border-radius: 999px; padding: 6px 16px; }
+@media (max-width: 760px) {
+  .toggle { display: block; }
+  .nav { display: none; flex-direction: column; width: 100%; padding: 12px 0; }
+  .nav.open { display: flex; }
+}

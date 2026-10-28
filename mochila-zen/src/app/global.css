@@ -1,0 +1,12 @@
+:root {
+  --sage: #7FA38A; --forest: #2F4A3A; --sand: #F6F1E7; --coral: #E8795A; --ink: #1F3328; --white: #fff;
+  --radius: 24px;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; font-family: 'Nunito', system-ui, sans-serif; color: var(--ink); background: var(--sand); line-height: 1.6; }
+h1, h2, h3 { line-height: 1.15; color: var(--forest); margin: 0 0 .5em; }
+h2 { font-size: clamp(1.7rem, 4vw, 2.4rem); }
+section { padding: 72px 20px; }
+:focus-visible { outline: 3px solid var(--forest); outline-offset: 3px; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { animation: none !important; transition: none !important; } }

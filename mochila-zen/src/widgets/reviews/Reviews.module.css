@@ -1,0 +1,5 @@
+.wrap { max-width: 1000px; margin: 0 auto; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
+.card { margin: 0; background: var(--white); border-radius: var(--radius); padding: 26px; }
+.card blockquote { margin: 0 0 14px; font-size: 1.05rem; }
+.card figcaption { font-weight: 800; color: var(--forest); }
