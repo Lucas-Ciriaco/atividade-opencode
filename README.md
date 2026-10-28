@@ -2,7 +2,7 @@
 
 ## Integrantes
 
-- Seu nome aqui
+- Lucas Ciriaco Borba
 
 ## Sobre o produto
 
